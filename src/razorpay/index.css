@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding:5px 10px;
+    background-color: #5755d9;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 3px #e2e3e6;
+    width: 5em;
+    background:linear-gradient(135deg, #5755d9 0%,#7367F0 100%);
+}
+
+button:hover {
+    box-shadow: 2px 1px 6px 4px #e2e3e6;
+}
