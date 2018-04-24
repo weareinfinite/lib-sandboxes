@@ -7,13 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dom-to-image": "parcel ./src/dom-to-image/index.html",
     "razorpay": "parcel ./src/razorpay/index.html --open",
-    "brain": "node ./src/brain/index.js"
+    "brain": "node ./src/brain/index.js",
+    "bayes": "node ./src/bayes/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^0.7.0",
+    "bayes": "0.0.7",
     "brain.js": "^1.1.2",
     "dom-to-image": "^2.6.0",
     "parcel-bundler": "^1.6.2"
