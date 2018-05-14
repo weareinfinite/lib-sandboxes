@@ -8,7 +8,9 @@
     "dom-to-image": "parcel ./src/dom-to-image/index.html",
     "razorpay": "parcel ./src/razorpay/index.html --open",
     "brain": "node ./src/brain/index.js",
-    "bayes": "node ./src/bayes/index.js"
+    "bayes": "node ./src/bayes/index.js",
+    "keywords": "node ./src/keywords/index.js",
+    "popmotion": "parcel ./src/popmotion/index.html"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +20,8 @@
     "bayes": "0.0.7",
     "brain.js": "^1.1.2",
     "dom-to-image": "^2.6.0",
-    "parcel-bundler": "^1.6.2"
+    "keyword-extractor": "0.0.15",
+    "parcel-bundler": "^1.6.2",
+    "popmotion": "^8.1.24"
   }
 }

@@ -1,0 +1,15 @@
+.section-1 {
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    background: #ddd;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+}
