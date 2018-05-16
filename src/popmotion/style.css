@@ -1,10 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
 .section-1 {
     display: flex;
     justify-content: center;
     min-height: 50vh;
     background: #ddd;
+    margin-top: 25px;
+    padding: 25px;
 }
-
+/* Example 1 */
 .box1 {
     display: flex;
     justify-content: center;
@@ -12,4 +22,16 @@
     width: 100px;
     height: 100px;
     background-color: orangered;
+}
+
+/* Example 2 */
+
+.ball {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
